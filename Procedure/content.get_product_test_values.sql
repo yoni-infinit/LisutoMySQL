@@ -1,4 +1,4 @@
-DROP PROCEDURE IF EXISTS content.get_product_test_values;
+DROP PROCEDURE IF EXISTS content.get_product_test_values; 
 CREATE PROCEDURE content.`get_product_test_values`(IN p_target_att_id int,IN p_attribute_id_list varchar(2000),INOUT p_pagination tinyint,IN p_language_id tinyint,IN p_last_product_id int)
 BEGIN
 
